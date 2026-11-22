@@ -1,0 +1,22 @@
+.vscode/
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.venv/
+**/.venv/
+venv/
+**/venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+.env.*
+!.env.example
+
+# Django backend
+loofer/src/server/
+
+# YOLO models
+loofer/yolo11n.pt
+loofer/src/yolo11n.pt
